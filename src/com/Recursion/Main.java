@@ -32,6 +32,7 @@ public class Main {
         int c=1;
         for(char i='a';i<='z';i++){
             String s = Character.toString(i);
+            // come out of condition if it becomes false.
             if(str1.contains(s)==false){
                 c=0;
                 break;
