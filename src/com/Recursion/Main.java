@@ -27,6 +27,7 @@ public class Main {
         stringCheck(str);
     }
     public static void stringCheck(String str){
+        // will lowercase the alphabets of string in lowercase alphabet.
         String str1 = str.toLowerCase();
         int c=1;
         for(char i='a';i<='z';i++){
